@@ -2,7 +2,7 @@
 
 $disks = Get-Disk | Where partitionstyle -eq 'raw' | sort number
 
-$letters = "E","F"
+$letters = "X","Y"
 $count = 0
 $labels = "Data","Log"
 
